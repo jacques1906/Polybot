@@ -13,7 +13,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from polybot import Polybot
 
 
-class TestPolybot(unittest.TestCase):
+class TestPolyBot(unittest.TestCase):
     """Test cases for Polybot"""
     
     @patch.dict(os.environ, {}, clear=True)
